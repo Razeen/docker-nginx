@@ -47,7 +47,7 @@ ADD ./supervisord.conf /etc/supervisord.conf
 #RUN mv /usr/share/nginx/html/5* /usr/share/nginx/wordpress
 #RUN rm -rf /usr/share/nginx/www
 #RUN mv /usr/share/nginx/wordpress /usr/share/nginx/www
-RUN chown -R www-data:www-data /var/www/html
+#RUN chown -R www-data:www-data /var/www/html
 
 # Wordpress Initialization and Startup Script
 ADD ./start.sh /start.sh
